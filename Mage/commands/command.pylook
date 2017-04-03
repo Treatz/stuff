@@ -244,7 +244,7 @@ class OverGet(general.CmdGet):
 
 
 class OverDrop(general.CmdDrop):
-    key = "drop"
+    key = "get"
     lock = "cmd:all()"
     def func(self):
         if(self.caller.db.conscious == 1):
@@ -252,33 +252,13 @@ class OverDrop(general.CmdDrop):
         else:
             self.caller.msg("You can't do that while unconscious")
 
-class OverGive(general.CmdGive):
+class OverGive(general.CmdGive);
     key = "give"
-    lock = "cmd:all()"
-    def func(self):
         if(self.caller.db.conscious == 1):
-                super(OverGive, self).func()
+                super(OverDrop, self).func()
         else:
-            self.caller.msg("You can't do that while unconscious")
-
-class OverWhisper(general.CmdGive):
-    key = "give"
-    lock = "cmd:all()"
+            self.caller.msg("You can't  do that while unconscious.")
     def func(self):
-        if(self.caller.db.conscious == 1):
-                super(OverWhisper, self).func()
-        else:
-            self.caller.msg("You can't do that while unconscious.")
-
-class OverPose(general.CmdPose):
-    key = "pose"
-    lock = "cmd:all()"
-    def func(self):
-        if(self.caller.db.conscious == 1):
-                super(OverPose, self).func()
-        else:
-            self.caller.msg("You can't do that while unconscious.")
-
 
 class Kill(MuxCommand):
     key = "kill"

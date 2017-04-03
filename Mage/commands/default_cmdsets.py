@@ -32,6 +32,13 @@ from commands.command import Sheet
 from commands.command import Image
 from commands.command import Wield
 from commands.command import OverLook
+from commands.command import OverInventory
+from commands.command import OverSay
+from commands.command import OverGet
+from commands.command import OverGive
+from commands.command import OverDrop
+from commands.command import OverPose
+from commands.command import OverWhisper
 
 class CharacterCmdSet(default_cmds.CharacterCmdSet):
     """
@@ -51,6 +58,14 @@ class CharacterCmdSet(default_cmds.CharacterCmdSet):
         #
         self.add(CmdSetSpeed())
 	self.add(OverLook())
+	self.add(OverInventory())
+	self.add(OverSay())
+	self.add(OverDrop())
+	self.add(OverGet())
+	self.add(OverGive())
+	self.add(OverPose())
+	self.add(OverWhisper())
+
 class PlayerCmdSet(default_cmds.PlayerCmdSet):
     """
     This is the cmdset available to the Player at all times. It is
@@ -123,3 +138,10 @@ class SessionCmdSet(default_cmds.SessionCmdSet):
         self.add(Image())
 	self.add(Wield())
 	self.add(OverLook())
+        self.add(OverInventory())
+	self.add(OverSay())
+	self.add(OverGet())
+	self.add(OverDrop())
+	self.add(OverGive())
+	self.add(OverPose())
+	self.add(OverWhisper())

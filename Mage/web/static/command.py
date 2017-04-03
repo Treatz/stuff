@@ -11,7 +11,6 @@ from django.conf import settings
 from evennia import Command, create_object, utils
 from evennia.utils import create, utils
 from evennia.commands.default import unloggedin
-from evennia.commands.default import general
 from evennia.utils import evform, evtable
 
 
@@ -214,71 +213,21 @@ class OverLook(default_cmds.CmdLook):
             super(OverLook, self).func()
         else:
             self.caller.msg("You can't see.")
-
-class OverInventory(general.CmdInventory):
-    key = "inventory"
-    lock = "cmd:all()"
+class OverHome(default_cmds.CmdHome):
+    key = "home"
     def func(self):
-        if(self.caller.db.conscious == 1):
-                super(OverInventory, self).func()
+        if(self.caller.db.conscious  == 1):
+		super(OverHome, self).func()
         else:
             self.caller.msg("You can't do that while unconscious")
 
-class OverSay(general.CmdSay):
-    key = "say"
-    lock = "cmd:all()"
+class OverInventory(default_cmds.CmdInventory):
+    key = "i"
     def func(self):
         if(self.caller.db.conscious == 1):
-                super(OverSay, self).func()
+                self.caller.msg("test")
         else:
             self.caller.msg("You can't do that while unconscious")
-
-class OverGet(general.CmdGet):
-    key = "get"
-    lock = "cmd:all()"
-    def func(self):
-        if(self.caller.db.conscious == 1):
-                super(OverGet, self).func()
-        else:
-            self.caller.msg("You can't do that while unconscious")
-
-
-class OverDrop(general.CmdDrop):
-    key = "drop"
-    lock = "cmd:all()"
-    def func(self):
-        if(self.caller.db.conscious == 1):
-                super(OverDrop, self).func()
-        else:
-            self.caller.msg("You can't do that while unconscious")
-
-class OverGive(general.CmdGive):
-    key = "give"
-    lock = "cmd:all()"
-    def func(self):
-        if(self.caller.db.conscious == 1):
-                super(OverGive, self).func()
-        else:
-            self.caller.msg("You can't do that while unconscious")
-
-class OverWhisper(general.CmdGive):
-    key = "give"
-    lock = "cmd:all()"
-    def func(self):
-        if(self.caller.db.conscious == 1):
-                super(OverWhisper, self).func()
-        else:
-            self.caller.msg("You can't do that while unconscious.")
-
-class OverPose(general.CmdPose):
-    key = "pose"
-    lock = "cmd:all()"
-    def func(self):
-        if(self.caller.db.conscious == 1):
-                super(OverPose, self).func()
-        else:
-            self.caller.msg("You can't do that while unconscious.")
-
 
 class Kill(MuxCommand):
     key = "kill"

@@ -6090,3 +6090,657 @@ hon2.7/dist-packages/twisted/scripts/twistd.py", line 29, in run
 2017-03-27T18:49:28+0000 [-] Timing out client: IPv4Address(TCP, '208.54.90.159', 28771)
 2017-03-27T19:15:54+0000 [-] Timing out client: IPv4Address(TCP, '189.225.121.221', 63521)
 2017-03-27T19:16:38+0000 [-] Timing out client: IPv4Address(TCP, '52.5.98.73', 45948)
+2017-03-27T19:34:32+0000 [-] Received SIGTERM, shutting down.
+2017-03-27T19:34:32+0000 [-] (TCP Port 80 Closed)
+2017-03-27T19:34:32+0000 [twisted.web.server.Site#info] Stopping factory <twisted.web.server.Site instance at 0x7f2010120b90>
+2017-03-27T19:34:32+0000 [-] (TCP Port 8001 Closed)
+2017-03-27T19:34:32+0000 [-] (TCP Port 4000 Closed)
+2017-03-27T19:34:32+0000 [-] Main loop terminated.
+2017-03-27T19:34:32+0000 [twisted.scripts._twistd_unix.UnixAppLogger#info] Server Shut Down.
+2017-03-28T02:04:30+0000 [-] Loading /root/game/evennia/evennia/server/portal/portal.py...
+2017-03-28T02:04:31+0000 [-] Loaded.
+2017-03-28T02:04:31+0000 [twisted.scripts._twistd_unix.UnixAppLogger#info] twistd 17.1.0 (/usr/bin/python 2.7.12) starting up.
+2017-03-28T02:04:31+0000 [twisted.scripts._twistd_unix.UnixAppLogger#info] reactor class: twisted.internet.epollreactor.EPollReactor.
+2017-03-28T02:04:31+0000 [-] ServerFactory starting on 4000
+2017-03-28T02:04:31+0000 [-] ServerFactory (WebSocketFactory) starting on 8001
+2017-03-28T02:04:31+0000 [-] Site starting on 80
+2017-03-28T02:04:31+0000 [twisted.web.server.Site#info] Starting factory <twisted.web.server.Site instance at 0x7fd7684c8b90>
+2017-03-28T02:04:33+0000 [Uninitialized] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 60154) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2017-03-28T02:04:39+0000 [WebSocketClient (WebSocketProtocol),0,186.51.149.76] Starting RFC 6455 conversation
+2017-03-28T02:04:47+0000 [WebSocketClient (WebSocketProtocol),0,186.51.149.76] Closing connection: '' (1001)
+2017-03-28T02:04:50+0000 [WebSocketClient (WebSocketProtocol),1,186.51.149.76] Starting RFC 6455 conversation
+2017-03-28T02:05:20+0000 [WebSocketClient (WebSocketProtocol),2,172.56.29.231] Starting RFC 6455 conversation
+2017-03-28T02:05:31+0000 [WebSocketClient (WebSocketProtocol),3,186.51.149.76] Starting RFC 6455 conversation
+2017-03-28T02:05:56+0000 [-] Timing out client: IPv4Address(TCP, '66.249.85.30', 58194)
+2017-03-28T02:06:19+0000 [-] Timing out client: IPv4Address(TCP, '172.56.29.231', 21725)
+2017-03-28T02:06:19+0000 [-] Timing out client: IPv4Address(TCP, '172.56.29.231', 27648)
+2017-03-28T02:06:19+0000 [-] Timing out client: IPv4Address(TCP, '172.56.29.231', 51287)
+2017-03-28T02:06:19+0000 [-] Timing out client: IPv4Address(TCP, '172.56.29.231', 22244)
+2017-03-28T02:06:19+0000 [-] Timing out client: IPv4Address(TCP, '172.56.29.231', 62525)
+2017-03-28T02:06:19+0000 [-] Timing out client: IPv4Address(TCP, '172.56.29.231', 58529)
+2017-03-28T02:06:19+0000 [-] Timing out client: IPv4Address(TCP, '172.56.29.231', 53409)
+2017-03-28T02:06:19+0000 [-] Timing out client: IPv4Address(TCP, '172.56.29.231', 26900)
+2017-03-28T02:06:19+0000 [-] Timing out client: IPv4Address(TCP, '172.56.29.231', 27598)
+2017-03-28T02:06:25+0000 [-] Timing out client: IPv4Address(TCP, '66.249.85.31', 44657)
+2017-03-28T02:06:27+0000 [-] Timing out client: IPv4Address(TCP, '186.51.149.76', 29219)
+2017-03-28T02:06:29+0000 [-] Timing out client: IPv4Address(TCP, '66.249.85.2', 51833)
+2017-03-28T02:07:21+0000 [WebSocketClient (WebSocketProtocol),3,186.51.149.76] Closing connection: '' (1001)
+2017-03-28T02:07:56+0000 [WebSocketClient (WebSocketProtocol),4,186.51.149.76] Starting RFC 6455 conversation
+2017-03-28T02:08:19+0000 [WebSocketClient (WebSocketProtocol),5,186.51.149.76] Starting RFC 6455 conversation
+2017-03-28T02:08:22+0000 [WebSocketClient (WebSocketProtocol),5,186.51.149.76] Closing connection: '' (1001)
+2017-03-28T02:08:55+0000 [-] Timing out client: IPv4Address(TCP, '66.249.85.30', 49470)
+2017-03-28T02:09:25+0000 [-] Timing out client: IPv4Address(TCP, '66.249.85.2', 55773)
+2017-03-28T02:09:27+0000 [-] Received SIGINT, shutting down.
+2017-03-28T02:09:27+0000 [-] (TCP Port 80 Closed)
+2017-03-28T02:09:27+0000 [twisted.web.server.Site#info] Stopping factory <twisted.web.server.Site instance at 0x7fd7684c8b90>
+2017-03-28T02:09:27+0000 [-] (TCP Port 8001 Closed)
+2017-03-28T02:09:27+0000 [-] (TCP Port 4000 Closed)
+2017-03-28T02:09:27+0000 [-] Main loop terminated.
+2017-03-28T02:09:27+0000 [twisted.scripts._twistd_unix.UnixAppLogger#info] Server Shut Down.
+2017-03-28T02:09:31+0000 [-] Loading /root/game/evennia/evennia/server/portal/portal.py...
+2017-03-28T02:09:33+0000 [-] Loaded.
+2017-03-28T02:09:33+0000 [twisted.scripts._twistd_unix.UnixAppLogger#info] twistd 17.1.0 (/usr/bin/python 2.7.12) starting up.
+2017-03-28T02:09:33+0000 [twisted.scripts._twistd_unix.UnixAppLogger#info] reactor class: twisted.internet.epollreactor.EPollReactor.
+2017-03-28T02:09:33+0000 [-] ServerFactory starting on 4000
+2017-03-28T02:09:33+0000 [-] ServerFactory (WebSocketFactory) starting on 8001
+2017-03-28T02:09:33+0000 [-] Site starting on 80
+2017-03-28T02:09:33+0000 [twisted.web.server.Site#info] Starting factory <twisted.web.server.Site instance at 0x7f9909001f38>
+2017-03-28T02:09:34+0000 [Uninitialized] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 60214) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2017-03-28T02:09:36+0000 [WebSocketClient (WebSocketProtocol),0,186.51.149.76] Starting RFC 6455 conversation
+2017-03-28T02:09:46+0000 [WebSocketClient (WebSocketProtocol),1,172.56.29.231] Starting RFC 6455 conversation
+2017-03-28T02:10:03+0000 [WebSocketClient (WebSocketProtocol),0,186.51.149.76] Closing connection: '' (1001)
+2017-03-28T02:10:04+0000 [WebSocketClient (WebSocketProtocol),2,172.56.29.231] Starting RFC 6455 conversation
+2017-03-28T02:10:30+0000 [WebSocketClient (WebSocketProtocol),3,186.51.149.76] Starting RFC 6455 conversation
+2017-03-28T02:10:34+0000 [WebSocketClient (WebSocketProtocol),4,108.193.32.85] Starting RFC 6455 conversation
+2017-03-28T02:10:55+0000 [-] Timing out client: IPv4Address(TCP, '172.56.29.231', 33586)
+2017-03-28T02:10:55+0000 [-] Timing out client: IPv4Address(TCP, '172.56.29.231', 45102)
+2017-03-28T02:10:55+0000 [-] Timing out client: IPv4Address(TCP, '172.56.29.231', 59576)
+2017-03-28T02:11:03+0000 [-] Timing out client: IPv4Address(TCP, '172.56.29.231', 20194)
+2017-03-28T02:11:04+0000 [-] Timing out client: IPv4Address(TCP, '172.56.29.231', 33731)
+2017-03-28T02:11:04+0000 [-] Timing out client: IPv4Address(TCP, '172.56.29.231', 17467)
+2017-03-28T02:11:04+0000 [-] Timing out client: IPv4Address(TCP, '172.56.29.231', 63812)
+2017-03-28T02:11:33+0000 [-] Timing out client: IPv4Address(TCP, '108.193.32.85', 49857)
+2017-03-28T02:11:33+0000 [-] Timing out client: IPv4Address(TCP, '108.193.32.85', 49858)
+2017-03-28T02:11:38+0000 [-] Timing out client: IPv4Address(TCP, '108.193.32.85', 49868)
+2017-03-28T02:11:47+0000 [-] Timing out client: IPv4Address(TCP, '66.249.85.2', 33261)
+2017-03-28T02:11:50+0000 [-] Received SIGINT, shutting down.
+2017-03-28T02:11:50+0000 [-] (TCP Port 80 Closed)
+2017-03-28T02:11:50+0000 [twisted.web.server.Site#info] Stopping factory <twisted.web.server.Site instance at 0x7f9909001f38>
+2017-03-28T02:11:50+0000 [-] (TCP Port 8001 Closed)
+2017-03-28T02:11:50+0000 [-] (TCP Port 4000 Closed)
+2017-03-28T02:11:50+0000 [-] Main loop terminated.
+2017-03-28T02:11:50+0000 [twisted.scripts._twistd_unix.UnixAppLogger#info] Server Shut Down.
+2017-03-28T02:11:56+0000 [-] Loading /root/game/evennia/evennia/server/portal/portal.py...
+2017-03-28T02:11:57+0000 [-] Loaded.
+2017-03-28T02:11:57+0000 [twisted.scripts._twistd_unix.UnixAppLogger#info] twistd 17.1.0 (/usr/bin/python 2.7.12) starting up.
+2017-03-28T02:11:57+0000 [twisted.scripts._twistd_unix.UnixAppLogger#info] reactor class: twisted.internet.epollreactor.EPollReactor.
+2017-03-28T02:11:57+0000 [-] ServerFactory starting on 4000
+2017-03-28T02:11:57+0000 [-] ServerFactory (WebSocketFactory) starting on 8001
+2017-03-28T02:11:57+0000 [-] Site starting on 80
+2017-03-28T02:11:57+0000 [twisted.web.server.Site#info] Starting factory <twisted.web.server.Site instance at 0x7fa690db5b90>
+2017-03-28T02:11:59+0000 [Uninitialized] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 60274) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2017-03-28T02:12:15+0000 [WebSocketClient (WebSocketProtocol),0,172.56.29.231] Starting RFC 6455 conversation
+2017-03-28T02:12:37+0000 [WebSocketClient (WebSocketProtocol),1,172.56.29.231] Starting RFC 6455 conversation
+2017-03-28T02:13:14+0000 [-] Timing out client: IPv4Address(TCP, '172.56.29.231', 46520)
+2017-03-28T02:13:36+0000 [-] Timing out client: IPv4Address(TCP, '172.56.29.231', 51787)
+2017-03-28T02:16:42+0000 [Uninitialized] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 60292) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2017-03-28T02:19:26+0000 [-] Timing out client: IPv4Address(TCP, '186.51.149.76', 29307)
+2017-03-28T02:19:26+0000 [-] Timing out client: IPv4Address(TCP, '186.51.149.76', 29308)
+2017-03-28T02:19:28+0000 [-] Timing out client: IPv4Address(TCP, '66.249.85.31', 65264)
+2017-03-28T02:22:46+0000 [WebSocketClient (WebSocketProtocol),2,108.193.32.85] Starting RFC 6455 conversation
+2017-03-28T02:23:32+0000 [-] Timing out client: IPv4Address(TCP, '60.53.3.7', 54039)
+2017-03-28T02:23:46+0000 [-] Timing out client: IPv4Address(TCP, '108.193.32.85', 49915)
+2017-03-28T02:23:46+0000 [-] Timing out client: IPv4Address(TCP, '108.193.32.85', 49928)
+2017-03-28T02:23:46+0000 [-] Timing out client: IPv4Address(TCP, '108.193.32.85', 49930)
+2017-03-28T02:23:53+0000 [-] Timing out client: IPv4Address(TCP, '108.193.32.85', 49929)
+2017-03-28T02:53:31+0000 [-] Timing out client: IPv4Address(TCP, '82.240.36.120', 64787)
+2017-03-28T03:32:22+0000 [-] Timing out client: IPv4Address(TCP, '110.136.230.44', 59567)
+2017-03-28T03:46:09+0000 [-] Timing out client: IPv4Address(TCP, '180.253.47.53', 25120)
+2017-03-28T04:38:34+0000 [-] Timing out client: IPv4Address(TCP, '137.101.207.12', 61097)
+2017-03-28T04:57:58+0000 [-] Timing out client: IPv4Address(TCP, '66.249.66.103', 54354)
+2017-03-28T05:01:43+0000 [-] Timing out client: IPv4Address(TCP, '188.236.38.241', 5771)
+2017-03-28T06:03:47+0000 [-] Timing out client: IPv4Address(TCP, '175.158.201.31', 46313)
+2017-03-28T06:47:51+0000 [-] Timing out client: IPv4Address(TCP, '31.27.161.121', 57153)
+2017-03-28T06:47:51+0000 [-] Timing out client: IPv4Address(TCP, '31.27.161.121', 57152)
+2017-03-28T06:47:51+0000 [-] Timing out client: IPv4Address(TCP, '31.27.161.121', 57154)
+2017-03-28T07:16:15+0000 [-] Timing out client: IPv4Address(TCP, '49.187.38.121', 57097)
+2017-03-28T07:20:23+0000 [-] Timing out client: IPv4Address(TCP, '188.49.227.238', 58926)
+2017-03-28T07:52:53+0000 [-] Timing out client: IPv4Address(TCP, '210.92.132.130', 60523)
+2017-03-28T08:47:29+0000 [-] Timing out client: IPv4Address(TCP, '66.249.66.79', 64315)
+2017-03-28T08:47:30+0000 [-] Timing out client: IPv4Address(TCP, '66.249.66.85', 36205)
+2017-03-28T08:54:04+0000 [-] Timing out client: IPv4Address(TCP, '82.178.187.72', 58046)
+2017-03-28T09:00:31+0000 [-] Timing out client: IPv4Address(TCP, '173.252.84.89', 45786)
+2017-03-28T09:00:32+0000 [-] Timing out client: IPv4Address(TCP, '173.252.90.245', 59498)
+2017-03-28T09:12:48+0000 [-] Timing out client: IPv4Address(TCP, '173.252.90.96', 36610)
+2017-03-28T10:01:01+0000 [-] Timing out client: IPv4Address(TCP, '177.22.199.149', 17904)
+2017-03-28T10:01:35+0000 [-] Timing out client: IPv4Address(TCP, '69.63.188.114', 14756)
+2017-03-28T10:23:04+0000 [-] Timing out client: IPv4Address(TCP, '109.93.68.198', 40053)
+2017-03-28T10:24:53+0000 [-] Timing out client: IPv4Address(TCP, '144.130.158.66', 47689)
+2017-03-28T11:03:13+0000 [-] Timing out client: IPv4Address(TCP, '75.132.163.12', 34939)
+2017-03-28T11:03:13+0000 [-] Timing out client: IPv4Address(TCP, '75.132.163.12', 34943)
+2017-03-28T11:04:51+0000 [-] Timing out client: IPv4Address(TCP, '75.132.163.12', 34940)
+2017-03-28T11:08:39+0000 [-] Timing out client: IPv4Address(TCP, '90.126.60.98', 57559)
+2017-03-28T11:08:39+0000 [-] Timing out client: IPv4Address(TCP, '90.126.60.98', 57565)
+2017-03-28T11:08:39+0000 [-] Timing out client: IPv4Address(TCP, '90.126.60.98', 57563)
+2017-03-28T11:09:02+0000 [-] Timing out client: IPv4Address(TCP, '90.126.60.98', 57613)
+2017-03-28T11:09:03+0000 [-] Timing out client: IPv4Address(TCP, '90.126.60.98', 57616)
+2017-03-28T11:09:03+0000 [-] Timing out client: IPv4Address(TCP, '90.126.60.98', 57618)
+2017-03-28T11:18:05+0000 [-] Timing out client: IPv4Address(TCP, '86.164.84.203', 55566)
+2017-03-28T11:36:10+0000 [-] Timing out client: IPv4Address(TCP, '82.22.166.80', 65270)
+2017-03-28T11:41:44+0000 [-] Timing out client: IPv4Address(TCP, '92.223.155.163', 56585)
+2017-03-28T12:11:51+0000 [-] Timing out client: IPv4Address(TCP, '66.220.146.21', 13768)
+2017-03-28T12:36:39+0000 [-] Timing out client: IPv4Address(TCP, '179.105.65.149', 58944)
+2017-03-28T12:36:40+0000 [-] Timing out client: IPv4Address(TCP, '179.105.65.149', 58945)
+2017-03-28T12:36:43+0000 [-] Timing out client: IPv4Address(TCP, '179.105.65.149', 58943)
+2017-03-28T12:36:43+0000 [-] Timing out client: IPv4Address(TCP, '179.105.65.149', 58946)
+2017-03-28T13:49:20+0000 [WebSocketClient (WebSocketProtocol),3,172.56.28.214] Starting RFC 6455 conversation
+2017-03-28T13:49:24+0000 [WebSocketClient (WebSocketProtocol),4,172.56.28.214] Starting RFC 6455 conversation
+2017-03-28T13:51:05+0000 [-] Timing out client: IPv4Address(TCP, '172.56.28.214', 25184)
+2017-03-28T13:51:05+0000 [-] Timing out client: IPv4Address(TCP, '172.56.28.214', 46429)
+2017-03-28T13:51:05+0000 [-] Timing out client: IPv4Address(TCP, '172.56.28.214', 40556)
+2017-03-28T13:51:05+0000 [-] Timing out client: IPv4Address(TCP, '172.56.28.214', 37641)
+2017-03-28T13:51:09+0000 [-] Timing out client: IPv4Address(TCP, '172.56.28.214', 43591)
+2017-03-28T14:09:15+0000 [-] Timing out client: IPv4Address(TCP, '191.7.178.2', 52269)
+2017-03-28T14:11:41+0000 [-] Received SIGINT, shutting down.
+2017-03-28T14:11:41+0000 [-] (TCP Port 80 Closed)
+2017-03-28T14:11:41+0000 [twisted.web.server.Site#info] Stopping factory <twisted.web.server.Site instance at 0x7fa690db5b90>
+2017-03-28T14:11:41+0000 [-] (TCP Port 8001 Closed)
+2017-03-28T14:11:41+0000 [-] (TCP Port 4000 Closed)
+2017-03-28T14:11:41+0000 [-] Main loop terminated.
+2017-03-28T14:11:41+0000 [twisted.scripts._twistd_unix.UnixAppLogger#info] Server Shut Down.
+2017-03-28T14:11:47+0000 [-] Loading /root/game/evennia/evennia/server/portal/portal.py...
+2017-03-28T14:11:48+0000 [-] Loaded.
+2017-03-28T14:11:48+0000 [twisted.scripts._twistd_unix.UnixAppLogger#info] twistd 17.1.0 (/usr/bin/python 2.7.12) starting up.
+2017-03-28T14:11:48+0000 [twisted.scripts._twistd_unix.UnixAppLogger#info] reactor class: twisted.internet.epollreactor.EPollReactor.
+2017-03-28T14:11:48+0000 [-] ServerFactory starting on 4000
+2017-03-28T14:11:48+0000 [-] ServerFactory (WebSocketFactory) starting on 8001
+2017-03-28T14:11:48+0000 [-] Site starting on 80
+2017-03-28T14:11:48+0000 [twisted.web.server.Site#info] Starting factory <twisted.web.server.Site instance at 0x7f0c82c9def0>
+2017-03-28T14:11:49+0000 [Uninitialized] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 60998) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2017-03-28T14:12:13+0000 [WebSocketClient (WebSocketProtocol),0,172.56.28.214] Starting RFC 6455 conversation
+2017-03-28T14:13:06+0000 [-] Timing out client: IPv4Address(TCP, '172.56.28.214', 33749)
+2017-03-28T14:13:07+0000 [-] Timing out client: IPv4Address(TCP, '172.56.28.214', 34875)
+2017-03-28T14:13:07+0000 [-] Timing out client: IPv4Address(TCP, '172.56.28.214', 49352)
+2017-03-28T14:13:13+0000 [-] Timing out client: IPv4Address(TCP, '172.56.28.214', 37788)
+2017-03-28T14:16:31+0000 [-] Received SIGINT, shutting down.
+2017-03-28T14:16:31+0000 [-] (TCP Port 80 Closed)
+2017-03-28T14:16:31+0000 [twisted.web.server.Site#info] Stopping factory <twisted.web.server.Site instance at 0x7f0c82c9def0>
+2017-03-28T14:16:31+0000 [-] (TCP Port 8001 Closed)
+2017-03-28T14:16:31+0000 [-] (TCP Port 4000 Closed)
+2017-03-28T14:16:31+0000 [-] Main loop terminated.
+2017-03-28T14:16:31+0000 [twisted.scripts._twistd_unix.UnixAppLogger#info] Server Shut Down.
+2017-03-28T14:17:06+0000 [-] Loading /root/game/evennia/evennia/server/portal/portal.py...
+2017-03-28T14:17:07+0000 [-] Loaded.
+2017-03-28T14:17:07+0000 [twisted.scripts._twistd_unix.UnixAppLogger#info] twistd 17.1.0 (/usr/bin/python 2.7.12) starting up.
+2017-03-28T14:17:07+0000 [twisted.scripts._twistd_unix.UnixAppLogger#info] reactor class: twisted.internet.epollreactor.EPollReactor.
+2017-03-28T14:17:07+0000 [-] ServerFactory starting on 4000
+2017-03-28T14:17:07+0000 [-] ServerFactory (WebSocketFactory) starting on 8001
+2017-03-28T14:17:07+0000 [-] Site starting on 80
+2017-03-28T14:17:07+0000 [twisted.web.server.Site#info] Starting factory <twisted.web.server.Site instance at 0x7f6f95fcfb90>
+2017-03-28T14:17:09+0000 [Uninitialized] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 32774) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2017-03-28T14:17:48+0000 [WebSocketClient (WebSocketProtocol),0,172.56.28.214] Starting RFC 6455 conversation
+2017-03-28T14:18:44+0000 [-] Timing out client: IPv4Address(TCP, '172.56.28.214', 58333)
+2017-03-28T14:18:44+0000 [-] Timing out client: IPv4Address(TCP, '172.56.28.214', 62330)
+2017-03-28T14:18:44+0000 [-] Timing out client: IPv4Address(TCP, '172.56.28.214', 29948)
+2017-03-28T14:18:44+0000 [-] Timing out client: IPv4Address(TCP, '172.56.28.214', 37563)
+2017-03-28T14:18:48+0000 [-] Timing out client: IPv4Address(TCP, '172.56.28.214', 55373)
+2017-03-28T14:21:03+0000 [Uninitialized] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 32778) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2017-03-28T14:21:19+0000 [-] Received SIGINT, shutting down.
+2017-03-28T14:21:19+0000 [-] (TCP Port 80 Closed)
+2017-03-28T14:21:19+0000 [twisted.web.server.Site#info] Stopping factory <twisted.web.server.Site instance at 0x7f6f95fcfb90>
+2017-03-28T14:21:19+0000 [-] (TCP Port 8001 Closed)
+2017-03-28T14:21:19+0000 [-] (TCP Port 4000 Closed)
+2017-03-28T14:21:19+0000 [-] Main loop terminated.
+2017-03-28T14:21:19+0000 [twisted.scripts._twistd_unix.UnixAppLogger#info] Server Shut Down.
+2017-03-28T14:21:25+0000 [-] Loading /root/game/evennia/evennia/server/portal/portal.py...
+2017-03-28T14:21:25+0000 [-] Loaded.
+2017-03-28T14:21:26+0000 [twisted.scripts._twistd_unix.UnixAppLogger#info] twistd 17.1.0 (/usr/bin/python 2.7.12) starting up.
+2017-03-28T14:21:26+0000 [twisted.scripts._twistd_unix.UnixAppLogger#info] reactor class: twisted.internet.epollreactor.EPollReactor.
+2017-03-28T14:21:26+0000 [-] ServerFactory starting on 4000
+2017-03-28T14:21:26+0000 [-] ServerFactory (WebSocketFactory) starting on 8001
+2017-03-28T14:21:26+0000 [-] Site starting on 80
+2017-03-28T14:21:26+0000 [twisted.web.server.Site#info] Starting factory <twisted.web.server.Site instance at 0x7f1057127b90>
+2017-03-28T14:21:27+0000 [Uninitialized] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 32782) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2017-03-28T14:21:41+0000 [WebSocketClient (WebSocketProtocol),0,172.56.28.214] Starting RFC 6455 conversation
+2017-03-28T14:22:41+0000 [WebSocketClient (WebSocketProtocol),1,172.56.28.214] Starting RFC 6455 conversation
+2017-03-28T14:23:31+0000 [-] Timing out client: IPv4Address(TCP, '172.56.28.214', 53460)
+2017-03-28T14:23:31+0000 [-] Timing out client: IPv4Address(TCP, '172.56.28.214', 45519)
+2017-03-28T14:23:31+0000 [-] Timing out client: IPv4Address(TCP, '172.56.28.214', 52145)
+2017-03-28T14:23:40+0000 [-] Timing out client: IPv4Address(TCP, '172.56.28.214', 60362)
+2017-03-28T14:28:37+0000 [-] Received SIGINT, shutting down.
+2017-03-28T14:28:37+0000 [-] (TCP Port 80 Closed)
+2017-03-28T14:28:37+0000 [twisted.web.server.Site#info] Stopping factory <twisted.web.server.Site instance at 0x7f1057127b90>
+2017-03-28T14:28:37+0000 [-] (TCP Port 8001 Closed)
+2017-03-28T14:28:37+0000 [-] (TCP Port 4000 Closed)
+2017-03-28T14:28:37+0000 [-] Main loop terminated.
+2017-03-28T14:28:37+0000 [twisted.scripts._twistd_unix.UnixAppLogger#info] Server Shut Down.
+2017-03-28T14:28:42+0000 [-] Loading /root/game/evennia/evennia/server/portal/portal.py...
+2017-03-28T14:28:43+0000 [-] Loaded.
+2017-03-28T14:28:43+0000 [twisted.scripts._twistd_unix.UnixAppLogger#info] twistd 17.1.0 (/usr/bin/python 2.7.12) starting up.
+2017-03-28T14:28:43+0000 [twisted.scripts._twistd_unix.UnixAppLogger#info] reactor class: twisted.internet.epollreactor.EPollReactor.
+2017-03-28T14:28:43+0000 [-] ServerFactory starting on 4000
+2017-03-28T14:28:44+0000 [-] ServerFactory (WebSocketFactory) starting on 8001
+2017-03-28T14:28:44+0000 [-] Site starting on 80
+2017-03-28T14:28:44+0000 [twisted.web.server.Site#info] Starting factory <twisted.web.server.Site instance at 0x7ff42409fb90>
+2017-03-28T14:28:45+0000 [Uninitialized] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 32822) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2017-03-28T14:28:59+0000 [WebSocketClient (WebSocketProtocol),0,172.56.28.214] Starting RFC 6455 conversation
+2017-03-28T14:29:55+0000 [-] Timing out client: IPv4Address(TCP, '172.56.28.214', 26724)
+2017-03-28T14:29:55+0000 [-] Timing out client: IPv4Address(TCP, '172.56.28.214', 31523)
+2017-03-28T14:29:55+0000 [-] Timing out client: IPv4Address(TCP, '172.56.28.214', 43225)
+2017-03-28T14:29:55+0000 [-] Timing out client: IPv4Address(TCP, '172.56.28.214', 48722)
+2017-03-28T14:29:55+0000 [-] Timing out client: IPv4Address(TCP, '172.56.28.214', 18641)
+2017-03-28T14:29:58+0000 [-] Timing out client: IPv4Address(TCP, '172.56.28.214', 21040)
+2017-03-28T14:31:50+0000 [-] Timing out client: IPv4Address(TCP, '66.249.66.107', 35059)
+2017-03-28T14:32:45+0000 [-] Received SIGINT, shutting down.
+2017-03-28T14:32:45+0000 [-] (TCP Port 80 Closed)
+2017-03-28T14:32:45+0000 [twisted.web.server.Site#info] Stopping factory <twisted.web.server.Site instance at 0x7ff42409fb90>
+2017-03-28T14:32:45+0000 [-] (TCP Port 8001 Closed)
+2017-03-28T14:32:45+0000 [-] (TCP Port 4000 Closed)
+2017-03-28T14:32:45+0000 [-] Main loop terminated.
+2017-03-28T14:32:45+0000 [twisted.scripts._twistd_unix.UnixAppLogger#info] Server Shut Down.
+2017-03-28T14:32:49+0000 [-] Loading /root/game/evennia/evennia/server/portal/portal.py...
+2017-03-28T14:32:51+0000 [-] Loaded.
+2017-03-28T14:32:51+0000 [twisted.scripts._twistd_unix.UnixAppLogger#info] twistd 17.1.0 (/usr/bin/python 2.7.12) starting up.
+2017-03-28T14:32:51+0000 [twisted.scripts._twistd_unix.UnixAppLogger#info] reactor class: twisted.internet.epollreactor.EPollReactor.
+2017-03-28T14:32:51+0000 [-] ServerFactory starting on 4000
+2017-03-28T14:32:51+0000 [-] ServerFactory (WebSocketFactory) starting on 8001
+2017-03-28T14:32:51+0000 [-] Site starting on 80
+2017-03-28T14:32:51+0000 [twisted.web.server.Site#info] Starting factory <twisted.web.server.Site instance at 0x7fe758deeb90>
+2017-03-28T14:32:52+0000 [Uninitialized] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 32830) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2017-03-28T14:33:12+0000 [WebSocketClient (WebSocketProtocol),0,172.56.28.214] Starting RFC 6455 conversation
+2017-03-28T14:51:00+0000 [-] Received SIGINT, shutting down.
+2017-03-28T14:51:00+0000 [-] (TCP Port 80 Closed)
+2017-03-28T14:51:00+0000 [twisted.web.server.Site#info] Stopping factory <twisted.web.server.Site instance at 0x7fe758deeb90>
+2017-03-28T14:51:00+0000 [-] (TCP Port 8001 Closed)
+2017-03-28T14:51:00+0000 [-] (TCP Port 4000 Closed)
+2017-03-28T14:51:00+0000 [-] Main loop terminated.
+2017-03-28T14:51:00+0000 [twisted.scripts._twistd_unix.UnixAppLogger#info] Server Shut Down.
+2017-03-28T14:51:09+0000 [-] Loading /root/game/evennia/evennia/server/portal/portal.py...
+2017-03-28T14:51:10+0000 [-] Loaded.
+2017-03-28T14:51:10+0000 [twisted.scripts._twistd_unix.UnixAppLogger#info] twistd 17.1.0 (/usr/bin/python 2.7.12) starting up.
+2017-03-28T14:51:10+0000 [twisted.scripts._twistd_unix.UnixAppLogger#info] reactor class: twisted.internet.epollreactor.EPollReactor.
+2017-03-28T14:51:10+0000 [-] ServerFactory starting on 4000
+2017-03-28T14:51:10+0000 [-] ServerFactory (WebSocketFactory) starting on 8001
+2017-03-28T14:51:10+0000 [-] Site starting on 80
+2017-03-28T14:51:10+0000 [twisted.web.server.Site#info] Starting factory <twisted.web.server.Site instance at 0x7fdaa009eb90>
+2017-03-28T14:51:12+0000 [Uninitialized] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 32834) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2017-03-28T14:51:31+0000 [WebSocketClient (WebSocketProtocol),0,172.56.28.214] Starting RFC 6455 conversation
+2017-03-28T14:52:28+0000 [-] Timing out client: IPv4Address(TCP, '172.56.28.214', 61709)
+2017-03-28T14:52:28+0000 [-] Timing out client: IPv4Address(TCP, '172.56.28.214', 19269)
+2017-03-28T14:52:28+0000 [-] Timing out client: IPv4Address(TCP, '172.56.28.214', 25850)
+2017-03-28T14:52:28+0000 [-] Timing out client: IPv4Address(TCP, '172.56.28.214', 20211)
+2017-03-28T14:52:31+0000 [-] Timing out client: IPv4Address(TCP, '172.56.28.214', 30406)
+2017-03-28T14:53:19+0000 [-] Received SIGINT, shutting down.
+2017-03-28T14:53:19+0000 [-] (TCP Port 80 Closed)
+2017-03-28T14:53:19+0000 [twisted.web.server.Site#info] Stopping factory <twisted.web.server.Site instance at 0x7fdaa009eb90>
+2017-03-28T14:53:19+0000 [-] (TCP Port 8001 Closed)
+2017-03-28T14:53:19+0000 [-] (TCP Port 4000 Closed)
+2017-03-28T14:53:19+0000 [-] Main loop terminated.
+2017-03-28T14:53:19+0000 [twisted.scripts._twistd_unix.UnixAppLogger#info] Server Shut Down.
+2017-03-28T14:53:24+0000 [-] Loading /root/game/evennia/evennia/server/portal/portal.py...
+2017-03-28T14:53:26+0000 [-] Loaded.
+2017-03-28T14:53:26+0000 [twisted.scripts._twistd_unix.UnixAppLogger#info] twistd 17.1.0 (/usr/bin/python 2.7.12) starting up.
+2017-03-28T14:53:26+0000 [twisted.scripts._twistd_unix.UnixAppLogger#info] reactor class: twisted.internet.epollreactor.EPollReactor.
+2017-03-28T14:53:26+0000 [-] ServerFactory starting on 4000
+2017-03-28T14:53:26+0000 [-] ServerFactory (WebSocketFactory) starting on 8001
+2017-03-28T14:53:26+0000 [-] Site starting on 80
+2017-03-28T14:53:26+0000 [twisted.web.server.Site#info] Starting factory <twisted.web.server.Site instance at 0x7f5e06bd3b90>
+2017-03-28T14:53:27+0000 [Uninitialized] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 32842) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2017-03-28T14:53:38+0000 [WebSocketClient (WebSocketProtocol),0,172.56.28.214] Starting RFC 6455 conversation
+2017-03-28T14:54:00+0000 [WebSocketClient (WebSocketProtocol),1,172.56.28.214] Starting RFC 6455 conversation
+2017-03-28T14:54:17+0000 [WebSocketClient (WebSocketProtocol),2,172.56.28.214] Starting RFC 6455 conversation
+2017-03-28T14:55:09+0000 [-] Timing out client: IPv4Address(TCP, '172.56.28.214', 56039)
+2017-03-28T14:55:09+0000 [-] Timing out client: IPv4Address(TCP, '172.56.28.214', 30143)
+2017-03-28T14:55:09+0000 [-] Timing out client: IPv4Address(TCP, '172.56.28.214', 17642)
+2017-03-28T15:04:18+0000 [-] Timing out client: IPv4Address(TCP, '178.128.180.244', 50332)
+2017-03-28T15:04:18+0000 [-] Timing out client: IPv4Address(TCP, '178.128.180.244', 50331)
+2017-03-28T15:04:18+0000 [-] Timing out client: IPv4Address(TCP, '178.128.180.244', 50334)
+2017-03-28T15:06:45+0000 [WebSocketClient (WebSocketProtocol),3,172.58.200.103] Starting RFC 6455 conversation
+2017-03-28T15:06:49+0000 [WebSocketClient (WebSocketProtocol),3,172.58.200.103] Closing connection: '' (1001)
+2017-03-28T15:22:10+0000 [-] Timing out client: IPv4Address(TCP, '75.132.163.12', 37515)
+2017-03-28T15:22:10+0000 [-] Timing out client: IPv4Address(TCP, '75.132.163.12', 37513)
+2017-03-28T15:22:11+0000 [-] Timing out client: IPv4Address(TCP, '75.132.163.12', 37519)
+2017-03-28T15:30:17+0000 [WebSocketClient (WebSocketProtocol),4,75.132.163.12] Starting RFC 6455 conversation
+2017-03-28T15:30:26+0000 [WebSocketClient (WebSocketProtocol),4,75.132.163.12] Closing connection: '' (1001)
+2017-03-28T15:30:54+0000 [-] Timing out client: IPv4Address(TCP, '104.168.25.200', 41568)
+2017-03-28T15:31:15+0000 [-] Timing out client: IPv4Address(TCP, '75.132.163.12', 37622)
+2017-03-28T15:40:14+0000 [-] Timing out client: IPv4Address(TCP, '73.159.239.45', 52158)
+2017-03-28T15:43:10+0000 [-] Timing out client: IPv4Address(TCP, '166.87.149.32', 17860)
+2017-03-28T16:03:46+0000 [-] Timing out client: IPv4Address(TCP, '137.97.14.185', 53934)
+2017-03-28T16:23:55+0000 [-] Timing out client: IPv4Address(TCP, '37.7.161.213', 56659)
+2017-03-28T16:58:10+0000 [-] Timing out client: IPv4Address(TCP, '121.109.137.58', 34032)
+2017-03-28T17:15:52+0000 [WebSocketClient (WebSocketProtocol),5,72.22.244.112] Starting RFC 6455 conversation
+2017-03-28T17:16:18+0000 [-] Timing out client: IPv4Address(TCP, '72.22.244.112', 45436)
+2017-03-28T17:16:51+0000 [-] Timing out client: IPv4Address(TCP, '72.22.244.112', 45438)
+2017-03-28T17:16:51+0000 [-] Timing out client: IPv4Address(TCP, '72.22.244.112', 45437)
+2017-03-28T17:16:52+0000 [-] Timing out client: IPv4Address(TCP, '72.22.244.112', 45447)
+2017-03-28T17:20:12+0000 [-] Timing out client: IPv4Address(TCP, '72.22.244.112', 45455)
+2017-03-28T17:42:55+0000 [WebSocketClient (WebSocketProtocol),6,172.56.28.44] Starting RFC 6455 conversation
+2017-03-28T17:43:06+0000 [WebSocketClient (WebSocketProtocol),7,172.56.28.44] Starting RFC 6455 conversation
+2017-03-28T17:43:34+0000 [WebSocketClient (WebSocketProtocol),8,172.56.28.44] Starting RFC 6455 conversation
+2017-03-28T17:44:06+0000 [-] Timing out client: IPv4Address(TCP, '172.56.28.44', 54698)
+2017-03-28T17:44:14+0000 [-] Timing out client: IPv4Address(TCP, '172.56.28.44', 22824)
+2017-03-28T17:44:52+0000 [-] Timing out client: IPv4Address(TCP, '172.56.28.44', 25677)
+2017-03-28T17:44:52+0000 [-] Timing out client: IPv4Address(TCP, '172.56.28.44', 48708)
+2017-03-28T17:44:52+0000 [-] Timing out client: IPv4Address(TCP, '172.56.28.44', 23846)
+2017-03-28T17:44:52+0000 [-] Timing out client: IPv4Address(TCP, '172.56.28.44', 18395)
+2017-03-28T17:44:52+0000 [-] Timing out client: IPv4Address(TCP, '172.56.28.44', 60319)
+2017-03-28T18:13:30+0000 [-] Received SIGINT, shutting down.
+2017-03-28T18:13:30+0000 [-] (TCP Port 80 Closed)
+2017-03-28T18:13:30+0000 [twisted.web.server.Site#info] Stopping factory <twisted.web.server.Site instance at 0x7f5e06bd3b90>
+2017-03-28T18:13:30+0000 [-] (TCP Port 8001 Closed)
+2017-03-28T18:13:30+0000 [-] (TCP Port 4000 Closed)
+2017-03-28T18:13:30+0000 [-] Main loop terminated.
+2017-03-28T18:13:30+0000 [twisted.scripts._twistd_unix.UnixAppLogger#info] Server Shut Down.
+2017-03-28T18:13:42+0000 [-] Loading /root/game/evennia/evennia/server/portal/portal.py...
+2017-03-28T18:13:43+0000 [-] Loaded.
+2017-03-28T18:13:43+0000 [twisted.scripts._twistd_unix.UnixAppLogger#info] twistd 17.1.0 (/usr/bin/python 2.7.12) starting up.
+2017-03-28T18:13:43+0000 [twisted.scripts._twistd_unix.UnixAppLogger#info] reactor class: twisted.internet.epollreactor.EPollReactor.
+2017-03-28T18:13:43+0000 [-] ServerFactory starting on 4000
+2017-03-28T18:13:43+0000 [-] ServerFactory (WebSocketFactory) starting on 8001
+2017-03-28T18:13:43+0000 [-] Site starting on 80
+2017-03-28T18:13:43+0000 [twisted.web.server.Site#info] Starting factory <twisted.web.server.Site instance at 0x7f8c055d8b90>
+2017-03-28T18:13:45+0000 [Uninitialized] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 33072) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2017-03-28T18:22:57+0000 [-] Received SIGINT, shutting down.
+2017-03-28T18:22:57+0000 [-] (TCP Port 80 Closed)
+2017-03-28T18:22:57+0000 [twisted.web.server.Site#info] Stopping factory <twisted.web.server.Site instance at 0x7f8c055d8b90>
+2017-03-28T18:22:57+0000 [-] (TCP Port 8001 Closed)
+2017-03-28T18:22:57+0000 [-] (TCP Port 4000 Closed)
+2017-03-28T18:22:57+0000 [-] Main loop terminated.
+2017-03-28T18:22:57+0000 [twisted.scripts._twistd_unix.UnixAppLogger#info] Server Shut Down.
+2017-03-28T18:23:03+0000 [-] Loading /root/game/evennia/evennia/server/portal/portal.py...
+2017-03-28T18:23:04+0000 [-] Loaded.
+2017-03-28T18:23:04+0000 [twisted.scripts._twistd_unix.UnixAppLogger#info] twistd 17.1.0 (/usr/bin/python 2.7.12) starting up.
+2017-03-28T18:23:04+0000 [twisted.scripts._twistd_unix.UnixAppLogger#info] reactor class: twisted.internet.epollreactor.EPollReactor.
+2017-03-28T18:23:04+0000 [-] ServerFactory starting on 4000
+2017-03-28T18:23:04+0000 [-] ServerFactory (WebSocketFactory) starting on 8001
+2017-03-28T18:23:04+0000 [-] Site starting on 80
+2017-03-28T18:23:04+0000 [twisted.web.server.Site#info] Starting factory <twisted.web.server.Site instance at 0x7f51d64cab90>
+2017-03-28T18:23:06+0000 [Uninitialized] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 33082) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2017-03-28T18:23:46+0000 [WebSocketClient (WebSocketProtocol),0,172.56.28.44] Starting RFC 6455 conversation
+2017-03-28T18:25:51+0000 [-] Received SIGINT, shutting down.
+2017-03-28T18:25:51+0000 [-] (TCP Port 80 Closed)
+2017-03-28T18:25:51+0000 [twisted.web.server.Site#info] Stopping factory <twisted.web.server.Site instance at 0x7f51d64cab90>
+2017-03-28T18:25:51+0000 [-] (TCP Port 8001 Closed)
+2017-03-28T18:25:51+0000 [-] (TCP Port 4000 Closed)
+2017-03-28T18:25:51+0000 [-] Main loop terminated.
+2017-03-28T18:25:51+0000 [twisted.scripts._twistd_unix.UnixAppLogger#info] Server Shut Down.
+2017-03-28T18:25:57+0000 [-] Loading /root/game/evennia/evennia/server/portal/portal.py...
+2017-03-28T18:25:58+0000 [-] Loaded.
+2017-03-28T18:25:58+0000 [twisted.scripts._twistd_unix.UnixAppLogger#info] twistd 17.1.0 (/usr/bin/python 2.7.12) starting up.
+2017-03-28T18:25:58+0000 [twisted.scripts._twistd_unix.UnixAppLogger#info] reactor class: twisted.internet.epollreactor.EPollReactor.
+2017-03-28T18:25:58+0000 [-] ServerFactory starting on 4000
+2017-03-28T18:25:58+0000 [-] ServerFactory (WebSocketFactory) starting on 8001
+2017-03-28T18:25:58+0000 [-] Site starting on 80
+2017-03-28T18:25:58+0000 [twisted.web.server.Site#info] Starting factory <twisted.web.server.Site instance at 0x7feafbdf9b90>
+2017-03-28T18:26:00+0000 [Uninitialized] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 33086) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2017-03-28T18:26:11+0000 [WebSocketClient (WebSocketProtocol),0,172.56.28.44] Starting RFC 6455 conversation
+2017-03-28T18:27:38+0000 [WebSocketClient (WebSocketProtocol),1,172.56.28.44] Starting RFC 6455 conversation
+2017-03-28T18:28:37+0000 [-] Timing out client: IPv4Address(TCP, '172.56.28.44', 53626)
+2017-03-28T18:28:39+0000 [WebSocketClient (WebSocketProtocol),1,172.56.28.44] Closing connection: '' (1001)
+2017-03-28T18:28:39+0000 [WebSocketClient (WebSocketProtocol),0,172.56.28.44] Closing connection: '' (1001)
+2017-03-28T18:29:16+0000 [-] Timing out client: IPv4Address(TCP, '43.251.91.80', 64947)
+2017-03-29T18:47:50+0000 [-] Loading /root/game/evennia/evennia/server/portal/portal.py...
+2017-03-29T18:47:51+0000 [-] Loaded.
+2017-03-29T18:47:51+0000 [twisted.scripts._twistd_unix.UnixAppLogger#info] twistd 17.1.0 (/usr/bin/python 2.7.12) starting up.
+2017-03-29T18:47:51+0000 [twisted.scripts._twistd_unix.UnixAppLogger#info] reactor class: twisted.internet.epollreactor.EPollReactor.
+2017-03-29T18:47:51+0000 [-] ServerFactory starting on 4000
+2017-03-29T18:47:51+0000 [-] ServerFactory (WebSocketFactory) starting on 8001
+2017-03-29T18:47:51+0000 [-] Site starting on 80
+2017-03-29T18:47:51+0000 [twisted.web.server.Site#info] Starting factory <twisted.web.server.Site instance at 0x7f21c633b368>
+2017-03-29T18:47:53+0000 [Uninitialized] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 34126) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2017-03-29T18:48:12+0000 [WebSocketClient (WebSocketProtocol),0,172.56.28.208] Starting RFC 6455 conversation
+2017-03-29T18:49:07+0000 [-] Timing out client: IPv4Address(TCP, '172.56.28.208', 54921)
+2017-03-29T18:49:07+0000 [-] Timing out client: IPv4Address(TCP, '172.56.28.208', 27710)
+2017-03-29T18:49:07+0000 [-] Timing out client: IPv4Address(TCP, '172.56.28.208', 63901)
+2017-03-29T18:49:07+0000 [-] Timing out client: IPv4Address(TCP, '172.56.28.208', 58732)
+2017-03-29T18:49:07+0000 [-] Timing out client: IPv4Address(TCP, '172.56.28.208', 28414)
+2017-03-29T18:49:12+0000 [-] Timing out client: IPv4Address(TCP, '172.56.28.208', 42841)
+2017-03-29T18:49:37+0000 [WebSocketClient (WebSocketProtocol),1,172.56.28.208] Starting RFC 6455 conversation
+2017-03-29T18:49:57+0000 [WebSocketClient (WebSocketProtocol),2,172.56.28.208] Starting RFC 6455 conversation
+2017-03-29T18:50:48+0000 [-] Timing out client: IPv4Address(TCP, '172.56.28.208', 31669)
+2017-03-29T18:50:48+0000 [-] Timing out client: IPv4Address(TCP, '172.56.28.208', 62175)
+2017-03-29T18:50:48+0000 [-] Timing out client: IPv4Address(TCP, '172.56.28.208', 51316)
+2017-03-29T18:50:48+0000 [-] Timing out client: IPv4Address(TCP, '172.56.28.208', 43186)
+2017-03-29T18:50:48+0000 [-] Timing out client: IPv4Address(TCP, '172.56.28.208', 64714)
+2017-03-29T18:50:57+0000 [-] Timing out client: IPv4Address(TCP, '172.56.28.208', 40827)
+2017-03-29T18:54:06+0000 [WebSocketClient (WebSocketProtocol),0,172.56.28.208] Closing connection: '' (1001)
+2017-03-29T18:54:06+0000 [WebSocketClient (WebSocketProtocol),1,172.56.28.208] Closing connection: '' (1001)
+2017-03-29T18:54:06+0000 [WebSocketClient (WebSocketProtocol),2,172.56.28.208] Closing connection: '' (1001)
+2017-03-29T18:54:08+0000 [WebSocketClient (WebSocketProtocol),3,172.56.28.208] Starting RFC 6455 conversation
+2017-03-29T18:54:09+0000 [WebSocketClient (WebSocketProtocol),3,172.56.28.208] Closing connection: '' (1001)
+2017-03-29T18:54:11+0000 [WebSocketClient (WebSocketProtocol),4,172.56.28.208] Starting RFC 6455 conversation
+2017-03-29T18:54:18+0000 [WebSocketClient (WebSocketProtocol),5,172.56.28.208] Starting RFC 6455 conversation
+2017-03-29T18:54:22+0000 [WebSocketClient (WebSocketProtocol),6,172.56.28.208] Starting RFC 6455 conversation
+2017-03-29T18:54:46+0000 [-] Received SIGINT, shutting down.
+2017-03-29T18:54:46+0000 [-] (TCP Port 80 Closed)
+2017-03-29T18:54:46+0000 [twisted.web.server.Site#info] Stopping factory <twisted.web.server.Site instance at 0x7f21c633b368>
+2017-03-29T18:54:46+0000 [-] (TCP Port 8001 Closed)
+2017-03-29T18:54:46+0000 [-] (TCP Port 4000 Closed)
+2017-03-29T18:54:46+0000 [-] Main loop terminated.
+2017-03-29T18:54:46+0000 [twisted.scripts._twistd_unix.UnixAppLogger#info] Server Shut Down.
+2017-03-29T19:42:17+0000 [-] Loading /root/game/evennia/evennia/server/portal/portal.py...
+2017-03-29T19:42:18+0000 [-] Loaded.
+2017-03-29T19:42:18+0000 [twisted.scripts._twistd_unix.UnixAppLogger#info] twistd 17.1.0 (/usr/bin/python 2.7.12) starting up.
+2017-03-29T19:42:18+0000 [twisted.scripts._twistd_unix.UnixAppLogger#info] reactor class: twisted.internet.epollreactor.EPollReactor.
+2017-03-29T19:42:18+0000 [-] ServerFactory starting on 4000
+2017-03-29T19:42:18+0000 [-] ServerFactory (WebSocketFactory) starting on 8001
+2017-03-29T19:42:18+0000 [-] Site starting on 80
+2017-03-29T19:42:18+0000 [twisted.web.server.Site#info] Starting factory <twisted.web.server.Site instance at 0x7fe25a796830>
+2017-03-29T19:42:19+0000 [Uninitialized] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 34222) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2017-03-29T19:42:36+0000 [WebSocketClient (WebSocketProtocol),0,172.56.28.208] Starting RFC 6455 conversation
+2017-03-29T19:42:56+0000 [WebSocketClient (WebSocketProtocol),1,172.56.28.208] Starting RFC 6455 conversation
+2017-03-29T19:43:30+0000 [WebSocketClient (WebSocketProtocol),2,172.56.28.208] Starting RFC 6455 conversation
+2017-03-29T19:44:29+0000 [-] Timing out client: IPv4Address(TCP, '172.56.28.208', 52350)
+2017-03-29T19:46:21+0000 [stdout#info] writing mode=False to /root/fix/Mage/server/portal.restart
+2017-03-29T19:46:21+0000 [-] (TCP Port 80 Closed)
+2017-03-29T19:46:21+0000 [twisted.web.server.Site#info] Stopping factory <twisted.web.server.Site instance at 0x7fe25a796830>
+2017-03-29T19:46:21+0000 [-] (TCP Port 8001 Closed)
+2017-03-29T19:46:21+0000 [-] (TCP Port 4000 Closed)
+2017-03-29T19:46:21+0000 [-] Main loop terminated.
+2017-03-29T19:46:21+0000 [twisted.scripts._twistd_unix.UnixAppLogger#info] Server Shut Down.
+2017-04-02T14:41:33+0000 [-] Loading /root/game/evennia/evennia/server/portal/portal.py...
+2017-04-02T14:41:34+0000 [-] Loaded.
+2017-04-02T14:41:34+0000 [twisted.scripts._twistd_unix.UnixAppLogger#info] twistd 17.1.0 (/usr/bin/python 2.7.12) starting up.
+2017-04-02T14:41:34+0000 [twisted.scripts._twistd_unix.UnixAppLogger#info] reactor class: twisted.internet.epollreactor.EPollReactor.
+2017-04-02T14:41:34+0000 [-] ServerFactory starting on 4000
+2017-04-02T14:41:34+0000 [-] ServerFactory (WebSocketFactory) starting on 8001
+2017-04-02T14:41:34+0000 [-] Site starting on 80
+2017-04-02T14:41:34+0000 [twisted.web.server.Site#info] Starting factory <twisted.web.server.Site instance at 0x7ff450690830>
+2017-04-02T14:41:36+0000 [Uninitialized] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 37502) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2017-04-02T14:41:49+0000 [WebSocketClient (WebSocketProtocol),0,172.56.29.174] Starting RFC 6455 conversation
+2017-04-02T14:42:11+0000 [WebSocketClient (WebSocketProtocol),1,172.56.29.174] Starting RFC 6455 conversation
+2017-04-02T14:43:22+0000 [WebSocketClient (WebSocketProtocol),2,172.56.29.174] Starting RFC 6455 conversation
+2017-04-02T14:44:15+0000 [WebSocketClient (WebSocketProtocol),0,172.56.29.174] Closing connection: '' (1001)
+2017-04-02T14:44:15+0000 [WebSocketClient (WebSocketProtocol),1,172.56.29.174] Closing connection: '' (1001)
+2017-04-02T14:44:15+0000 [WebSocketClient (WebSocketProtocol),2,172.56.29.174] Closing connection: '' (1001)
+2017-04-02T14:44:18+0000 [WebSocketClient (WebSocketProtocol),3,172.56.29.174] Starting RFC 6455 conversation
+2017-04-02T14:44:20+0000 [WebSocketClient (WebSocketProtocol),3,172.56.29.174] Closing connection: '' (1001)
+2017-04-02T14:44:22+0000 [WebSocketClient (WebSocketProtocol),4,172.56.29.174] Starting RFC 6455 conversation
+2017-04-02T14:44:43+0000 [WebSocketClient (WebSocketProtocol),5,172.56.29.174] Starting RFC 6455 conversation
+2017-04-02T14:44:48+0000 [WebSocketClient (WebSocketProtocol),6,172.56.29.174] Starting RFC 6455 conversation
+2017-04-02T14:45:05+0000 [WebSocketClient (WebSocketProtocol),7,172.56.29.174] Starting RFC 6455 conversation
+2017-04-02T14:45:30+0000 [WebSocketClient (WebSocketProtocol),8,172.56.29.174] Starting RFC 6455 conversation
+2017-04-02T14:46:19+0000 [WebSocketClient (WebSocketProtocol),6,172.56.29.174] Closing connection: '' (1001)
+2017-04-02T14:46:19+0000 [WebSocketClient (WebSocketProtocol),7,172.56.29.174] Closing connection: '' (1001)
+2017-04-02T14:46:19+0000 [WebSocketClient (WebSocketProtocol),8,172.56.29.174] Closing connection: '' (1001)
+2017-04-02T14:46:21+0000 [WebSocketClient (WebSocketProtocol),9,172.56.29.174] Starting RFC 6455 conversation
+2017-04-02T14:46:22+0000 [WebSocketClient (WebSocketProtocol),9,172.56.29.174] Closing connection: '' (1001)
+2017-04-02T14:46:23+0000 [WebSocketClient (WebSocketProtocol),10,172.56.29.174] Starting RFC 6455 conversation
+2017-04-02T14:46:46+0000 [WebSocketClient (WebSocketProtocol),11,172.56.29.174] Starting RFC 6455 conversation
+2017-04-02T14:46:51+0000 [WebSocketClient (WebSocketProtocol),12,172.56.29.174] Starting RFC 6455 conversation
+2017-04-02T14:47:13+0000 [-] Received SIGINT, shutting down.
+2017-04-02T14:47:13+0000 [-] (TCP Port 80 Closed)
+2017-04-02T14:47:13+0000 [twisted.web.server.Site#info] Stopping factory <twisted.web.server.Site instance at 0x7ff450690830>
+2017-04-02T14:47:13+0000 [-] (TCP Port 8001 Closed)
+2017-04-02T14:47:13+0000 [-] (TCP Port 4000 Closed)
+2017-04-02T14:47:13+0000 [-] Main loop terminated.
+2017-04-02T14:47:13+0000 [twisted.scripts._twistd_unix.UnixAppLogger#info] Server Shut Down.
+2017-04-02T15:31:10+0000 [-] Loading /root/game/evennia/evennia/server/portal/portal.py...
+2017-04-02T15:31:11+0000 [-] Loaded.
+2017-04-02T15:31:11+0000 [twisted.scripts._twistd_unix.UnixAppLogger#info] twistd 17.1.0 (/usr/bin/python 2.7.12) starting up.
+2017-04-02T15:31:11+0000 [twisted.scripts._twistd_unix.UnixAppLogger#info] reactor class: twisted.internet.epollreactor.EPollReactor.
+2017-04-02T15:31:11+0000 [-] ServerFactory starting on 4000
+2017-04-02T15:31:11+0000 [-] ServerFactory (WebSocketFactory) starting on 8001
+2017-04-02T15:31:11+0000 [-] Site starting on 80
+2017-04-02T15:31:11+0000 [twisted.web.server.Site#info] Starting factory <twisted.web.server.Site instance at 0x7f10f45c1830>
+2017-04-02T15:31:12+0000 [Uninitialized] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 37614) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2017-04-02T15:31:35+0000 [-] Received SIGINT, shutting down.
+2017-04-02T15:31:35+0000 [-] (TCP Port 80 Closed)
+2017-04-02T15:31:35+0000 [twisted.web.server.Site#info] Stopping factory <twisted.web.server.Site instance at 0x7f10f45c1830>
+2017-04-02T15:31:35+0000 [-] (TCP Port 8001 Closed)
+2017-04-02T15:31:35+0000 [-] (TCP Port 4000 Closed)
+2017-04-02T15:31:35+0000 [-] Main loop terminated.
+2017-04-02T15:31:35+0000 [twisted.scripts._twistd_unix.UnixAppLogger#info] Server Shut Down.
+2017-04-02T15:41:15+0000 [-] Loading /root/game/evennia/evennia/server/portal/portal.py...
+2017-04-02T15:41:16+0000 [-] Loaded.
+2017-04-02T15:41:16+0000 [twisted.scripts._twistd_unix.UnixAppLogger#info] twistd 17.1.0 (/usr/bin/python 2.7.12) starting up.
+2017-04-02T15:41:16+0000 [twisted.scripts._twistd_unix.UnixAppLogger#info] reactor class: twisted.internet.epollreactor.EPollReactor.
+2017-04-02T15:41:16+0000 [-] ServerFactory starting on 4000
+2017-04-02T15:41:16+0000 [-] ServerFactory (WebSocketFactory) starting on 8001
+2017-04-02T15:41:16+0000 [-] Site starting on 80
+2017-04-02T15:41:16+0000 [twisted.web.server.Site#info] Starting factory <twisted.web.server.Site instance at 0x7f63f6fc53b0>
+2017-04-02T15:41:18+0000 [Uninitialized] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 37624) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2017-04-02T15:41:42+0000 [WebSocketClient (WebSocketProtocol),0,172.56.29.174] Starting RFC 6455 conversation
+2017-04-02T15:42:27+0000 [WebSocketClient (WebSocketProtocol),1,172.56.29.174] Starting RFC 6455 conversation
+2017-04-02T15:42:41+0000 [-] Timing out client: IPv4Address(TCP, '172.56.29.174', 50070)
+2017-04-02T15:42:41+0000 [-] Timing out client: IPv4Address(TCP, '172.56.29.174', 57734)
+2017-04-02T15:42:51+0000 [-] Timing out client: IPv4Address(TCP, '172.56.29.174', 54166)
+2017-04-02T15:42:57+0000 [WebSocketClient (WebSocketProtocol),2,172.56.29.174] Starting RFC 6455 conversation
+2017-04-02T15:43:56+0000 [-] Timing out client: IPv4Address(TCP, '172.56.29.174', 58657)
+2017-04-02T15:43:57+0000 [-] Timing out client: IPv4Address(TCP, '172.56.29.174', 38548)
+2017-04-02T15:43:57+0000 [-] Timing out client: IPv4Address(TCP, '172.56.29.174', 57161)
+2017-04-02T15:44:01+0000 [-] Timing out client: IPv4Address(TCP, '172.56.29.174', 21913)
+2017-04-02T15:44:45+0000 [-] Received SIGINT, shutting down.
+2017-04-02T15:44:45+0000 [-] (TCP Port 80 Closed)
+2017-04-02T15:44:45+0000 [twisted.web.server.Site#info] Stopping factory <twisted.web.server.Site instance at 0x7f63f6fc53b0>
+2017-04-02T15:44:45+0000 [-] (TCP Port 8001 Closed)
+2017-04-02T15:44:45+0000 [-] (TCP Port 4000 Closed)
+2017-04-02T15:44:45+0000 [-] Main loop terminated.
+2017-04-02T15:44:45+0000 [twisted.scripts._twistd_unix.UnixAppLogger#info] Server Shut Down.
+2017-04-02T15:48:07+0000 [-] Loading /root/game/evennia/evennia/server/portal/portal.py...
+2017-04-02T15:48:08+0000 [-] Loaded.
+2017-04-02T15:48:08+0000 [twisted.scripts._twistd_unix.UnixAppLogger#info] twistd 17.1.0 (/usr/bin/python 2.7.12) starting up.
+2017-04-02T15:48:08+0000 [twisted.scripts._twistd_unix.UnixAppLogger#info] reactor class: twisted.internet.epollreactor.EPollReactor.
+2017-04-02T15:48:08+0000 [-] ServerFactory starting on 4000
+2017-04-02T15:48:08+0000 [-] ServerFactory (WebSocketFactory) starting on 8001
+2017-04-02T15:48:08+0000 [-] Site starting on 80
+2017-04-02T15:48:08+0000 [twisted.web.server.Site#info] Starting factory <twisted.web.server.Site instance at 0x7f1cc9b6def0>
+2017-04-02T15:48:10+0000 [Uninitialized] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 37668) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2017-04-02T16:09:54+0000 [-] Timing out client: IPv4Address(TCP, '80.184.126.153', 28044)
+2017-04-02T16:23:38+0000 [-] Timing out client: IPv4Address(TCP, '179.216.10.112', 57690)
+2017-04-02T16:43:10+0000 [-] Timing out client: IPv4Address(TCP, '85.24.216.150', 57668)
+2017-04-02T16:51:52+0000 [-] Timing out client: IPv4Address(TCP, '41.111.111.29', 62654)
+2017-04-02T17:23:50+0000 [WebSocketClient (WebSocketProtocol),0,172.56.29.174] Starting RFC 6455 conversation
+2017-04-02T17:24:01+0000 [WebSocketClient (WebSocketProtocol),1,172.56.29.174] Starting RFC 6455 conversation
+2017-04-02T17:24:05+0000 [WebSocketClient (WebSocketProtocol),2,172.56.29.174] Starting RFC 6455 conversation
+2017-04-02T17:24:27+0000 [WebSocketClient (WebSocketProtocol),3,172.56.29.174] Starting RFC 6455 conversation
+2017-04-02T17:24:57+0000 [WebSocketClient (WebSocketProtocol),4,172.56.29.174] Starting RFC 6455 conversation
+2017-04-02T17:25:56+0000 [-] Timing out client: IPv4Address(TCP, '172.56.29.174', 53456)
+2017-04-02T17:27:25+0000 [-] Timing out client: IPv4Address(TCP, '172.56.29.174', 53604)
+2017-04-02T17:27:25+0000 [-] Timing out client: IPv4Address(TCP, '172.56.29.174', 45522)
+2017-04-02T17:27:25+0000 [-] Timing out client: IPv4Address(TCP, '172.56.29.174', 52336)
+2017-04-02T17:29:13+0000 [WebSocketClient (WebSocketProtocol),5,172.56.29.174] Starting RFC 6455 conversation
+2017-04-02T17:29:33+0000 [Uninitialized] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 37760) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2017-04-02T17:30:12+0000 [-] Timing out client: IPv4Address(TCP, '172.56.29.174', 52808)
+2017-04-02T17:35:18+0000 [Uninitialized] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 37762) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2017-04-02T17:39:23+0000 [-] Timing out client: IPv4Address(TCP, '69.63.188.217', 39394)
+2017-04-02T17:45:06+0000 [WebSocketClient (WebSocketProtocol),6,172.56.29.174] Starting RFC 6455 conversation
+2017-04-02T17:45:26+0000 [Uninitialized] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 37776) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2017-04-02T17:45:55+0000 [-] Timing out client: IPv4Address(TCP, '172.56.29.174', 51686)
+2017-04-02T17:45:55+0000 [-] Timing out client: IPv4Address(TCP, '172.56.29.174', 46517)
+2017-04-02T17:45:55+0000 [-] Timing out client: IPv4Address(TCP, '172.56.29.174', 62545)
+2017-04-02T17:46:05+0000 [-] Timing out client: IPv4Address(TCP, '172.56.29.174', 61179)
+2017-04-02T17:53:17+0000 [Uninitialized] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 37782) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2017-04-02T17:55:16+0000 [-] Timing out client: IPv4Address(TCP, '190.93.58.94', 52309)
+2017-04-02T17:57:44+0000 [Uninitialized] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 37794) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2017-04-02T17:59:50+0000 [Uninitialized] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 37796) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2017-04-02T18:02:27+0000 [-] Timing out client: IPv4Address(TCP, '172.56.29.174', 30373)
+2017-04-02T18:02:27+0000 [-] Timing out client: IPv4Address(TCP, '172.56.29.174', 21446)
+2017-04-02T18:02:27+0000 [-] Timing out client: IPv4Address(TCP, '172.56.29.174', 51806)
+2017-04-02T18:02:27+0000 [-] Timing out client: IPv4Address(TCP, '172.56.29.174', 23842)
+2017-04-02T18:02:27+0000 [-] Timing out client: IPv4Address(TCP, '172.56.29.174', 48613)
+2017-04-02T18:02:27+0000 [-] Timing out client: IPv4Address(TCP, '172.56.29.174', 52468)
+2017-04-02T18:04:01+0000 [Uninitialized] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 37798) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2017-04-02T18:05:52+0000 [Uninitialized] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 37800) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2017-04-02T18:07:06+0000 [-] Timing out client: IPv4Address(TCP, '172.56.29.174', 59662)
+2017-04-02T18:07:06+0000 [-] Timing out client: IPv4Address(TCP, '172.56.29.174', 41803)
+2017-04-02T18:07:06+0000 [-] Timing out client: IPv4Address(TCP, '172.56.29.174', 22064)
+2017-04-02T18:07:06+0000 [-] Timing out client: IPv4Address(TCP, '172.56.29.174', 37199)
+2017-04-02T18:07:06+0000 [-] Timing out client: IPv4Address(TCP, '172.56.29.174', 26813)
+2017-04-02T18:07:50+0000 [-] Timing out client: IPv4Address(TCP, '93.143.20.224', 56501)
+2017-04-02T18:08:51+0000 [Uninitialized] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 37812) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2017-04-02T18:11:14+0000 [Uninitialized] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 37814) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2017-04-02T18:11:27+0000 [Uninitialized] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 37816) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2017-04-02T18:13:58+0000 [Uninitialized] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 37820) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2017-04-02T18:15:39+0000 [Uninitialized] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 37822) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2017-04-02T18:16:55+0000 [Uninitialized] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 37824) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2017-04-02T21:45:49+0000 [-] Loading /root/game/evennia/evennia/server/portal/portal.py...
+2017-04-02T21:45:50+0000 [-] Loaded.
+2017-04-02T21:45:50+0000 [twisted.scripts._twistd_unix.UnixAppLogger#info] twistd 17.1.0 (/usr/bin/python 2.7.12) starting up.
+2017-04-02T21:45:50+0000 [twisted.scripts._twistd_unix.UnixAppLogger#info] reactor class: twisted.internet.epollreactor.EPollReactor.
+2017-04-02T21:45:50+0000 [stderr#error] Traceback (most recent call last):
+2017-04-02T21:45:50+0000 [stderr#error]   File "/usr/local/bin/twistd", line 11, in <module>
+2017-04-02T21:45:50+0000 [stderr#error]     sys.exit(run())
+2017-04-02T21:45:50+0000 [stderr#error]   File "/usr/local/lib/python2.7/dist-packages/twisted/scripts/twistd.py", line 29, in run
+2017-04-02T21:45:50+0000 [stderr#error]     app.run(runApp, ServerOptions)
+2017-04-02T21:45:50+0000 [stderr#error]   File "/usr/local/lib/python2.7/dist-packages/twisted/application/app.py", line 662, in run
+2017-04-02T21:45:50+0000 [stderr#error]     runApp(config)
+2017-04-02T21:45:50+0000 [stderr#error]   File "/usr/local/lib/python2.7/dist-packages/twisted/scripts/twistd.py", line 25, in runApp
+2017-04-02T21:45:50+0000 [stderr#error]     _SomeApplicationRunner(config).run()
+2017-04-02T21:45:50+0000 [stderr#error]   File "/usr/local/lib/python2.7/dist-packages/twisted/application/app.py", line 384, in run
+2017-04-02T21:45:50+0000 [stderr#error]     self.postApplication()
+2017-04-02T21:45:50+0000 [stderr#error]   File "/usr/local/lib/python2.7/dist-packages/twisted/scripts/_twistd_unix.py", line 248, in postApplication
+2017-04-02T21:45:50+0000 [stderr#error]     self.startApplication(self.application)
+2017-04-02T21:45:50+0000 [stderr#error]   File "/usr/local/lib/python2.7/dist-packages/twisted/scripts/_twistd_unix.py", line 435, in startApplication
+2017-04-02T21:45:50+0000 [stderr#error]     service.IService(application).privilegedStartService()
+2017-04-02T21:45:50+0000 [stderr#error]   File "/usr/local/lib/python2.7/dist-packages/twisted/application/service.py", line 279, in privilegedStartService
+2017-04-02T21:45:50+0000 [stderr#error]     service.privilegedStartService()
+2017-04-02T21:45:50+0000 [stderr#error]   File "/usr/local/lib/python2.7/dist-packages/twisted/application/internet.py", line 114, in privilegedStartService
+2017-04-02T21:45:50+0000 [stderr#error]     self._port = self._getPort()
+2017-04-02T21:45:50+0000 [stderr#error]   File "/usr/local/lib/python2.7/dist-packages/twisted/application/internet.py", line 142, in _getPort
+2017-04-02T21:45:50+0000 [stderr#error]     'listen%s' % (self.method,))(*self.args, **self.kwargs)
+2017-04-02T21:45:50+0000 [stderr#error]   File "/usr/local/lib/python2.7/dist-packages/twisted/internet/posixbase.py", line 478, in listenTCP
+2017-04-02T21:45:50+0000 [stderr#error]     p.startListening()
+2017-04-02T21:45:50+0000 [stderr#error]   File "/usr/local/lib/python2.7/dist-packages/twisted/internet/tcp.py", line 983, in startListening
+2017-04-02T21:45:50+0000 [stderr#error]     raise CannotListenError(self.interface, self.port, le)
+2017-04-02T21:45:50+0000 [stderr#error] twisted.internet.error.CannotListenError: Couldn't listen on 0.0.0.0:4000: [Errno 98] Address already in use.
+2017-04-02T21:46:26+0000 [-] Loading /root/game/evennia/evennia/server/portal/portal.py...
+2017-04-02T21:46:27+0000 [-] Loaded.
+2017-04-02T21:46:27+0000 [twisted.scripts._twistd_unix.UnixAppLogger#info] twistd 17.1.0 (/usr/bin/python 2.7.12) starting up.
+2017-04-02T21:46:27+0000 [twisted.scripts._twistd_unix.UnixAppLogger#info] reactor class: twisted.internet.epollreactor.EPollReactor.
+2017-04-02T21:46:27+0000 [-] ServerFactory starting on 4000
+2017-04-02T21:46:27+0000 [-] ServerFactory (WebSocketFactory) starting on 8001
+2017-04-02T21:46:27+0000 [-] Site starting on 80
+2017-04-02T21:46:27+0000 [twisted.web.server.Site#info] Starting factory <twisted.web.server.Site instance at 0x7fb9ec21ab90>
+2017-04-02T21:46:29+0000 [Uninitialized] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 38108) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2017-04-02T21:46:46+0000 [WebSocketClient (WebSocketProtocol),0,172.56.29.174] Starting RFC 6455 conversation
+2017-04-02T21:47:36+0000 [WebSocketClient (WebSocketProtocol),1,172.56.29.174] Starting RFC 6455 conversation
+2017-04-02T21:48:07+0000 [WebSocketClient (WebSocketProtocol),2,172.56.29.174] Starting RFC 6455 conversation
+2017-04-02T21:48:57+0000 [-] Timing out client: IPv4Address(TCP, '172.56.29.174', 47046)
+2017-04-02T21:48:57+0000 [-] Timing out client: IPv4Address(TCP, '172.56.29.174', 23124)
+2017-04-02T21:48:57+0000 [-] Timing out client: IPv4Address(TCP, '172.56.29.174', 32901)
+2017-04-02T21:48:57+0000 [-] Timing out client: IPv4Address(TCP, '172.56.29.174', 31958)
+2017-04-02T21:49:06+0000 [-] Timing out client: IPv4Address(TCP, '172.56.29.174', 19538)
+2017-04-02T21:50:40+0000 [-] Timing out client: IPv4Address(TCP, '172.56.29.174', 36523)
+2017-04-02T21:50:40+0000 [-] Timing out client: IPv4Address(TCP, '172.56.29.174', 50387)
+2017-04-02T21:50:40+0000 [-] Timing out client: IPv4Address(TCP, '172.56.29.174', 57016)
+2017-04-02T21:50:40+0000 [-] Timing out client: IPv4Address(TCP, '172.56.29.174', 55092)
+2017-04-02T21:50:40+0000 [-] Timing out client: IPv4Address(TCP, '172.56.29.174', 63081)
+2017-04-02T21:50:40+0000 [-] Timing out client: IPv4Address(TCP, '172.56.29.174', 62140)
+2017-04-02T21:51:51+0000 [Uninitialized] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 38126) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2017-04-02T21:59:14+0000 [Uninitialized] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 38136) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2017-04-02T22:00:23+0000 [Uninitialized] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 38138) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2017-04-02T22:02:05+0000 [Uninitialized] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 38140) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2017-04-02T22:11:01+0000 [Uninitialized] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 38152) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2017-04-02T22:11:07+0000 [-] Timing out client: IPv4Address(TCP, '188.26.34.172', 59905)
+2017-04-02T22:16:16+0000 [Uninitialized] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 38154) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2017-04-02T22:24:48+0000 [Uninitialized] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 38164) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2017-04-02T22:25:23+0000 [-] Timing out client: IPv4Address(TCP, '66.249.69.16', 36203)
+2017-04-02T22:29:39+0000 [Uninitialized] AMPProtocol connection established (HOST:IPv4Address(TCP, '127.0.0.1', 38166) PEER:IPv4Address(TCP, '127.0.0.1', 5000))
+2017-04-02T22:31:51+0000 [WebSocketClient (WebSocketProtocol),2,172.56.29.174] Closing connection: '' (1001)
+2017-04-02T22:31:51+0000 [WebSocketClient (WebSocketProtocol),1,172.56.29.174] Closing connection: '' (1001)
+2017-04-02T22:31:51+0000 [WebSocketClient (WebSocketProtocol),0,172.56.29.174] Closing connection: '' (1001)
+2017-04-02T22:31:53+0000 [WebSocketClient (WebSocketProtocol),3,172.56.29.174] Starting RFC 6455 conversation
+2017-04-02T22:32:12+0000 [WebSocketClient (WebSocketProtocol),4,172.56.29.174] Starting RFC 6455 conversation
+2017-04-02T22:32:16+0000 [WebSocketClient (WebSocketProtocol),4,172.56.29.174] Closing connection: '' (1001)
